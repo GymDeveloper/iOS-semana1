@@ -40,3 +40,10 @@ var celular: String
 // print es la funcion la cual nos permite imprimir datos en consola
 print(suma)
 print(estatura)
+
+// podemos asignarle un tipo a un arreglo
+// [String] indicamos que el contenido del arreglo es de solo strings
+let alumnos: [String] = ["Alex", "Micaela", "Yesica", "Luis"]
+
+// Podemos declarar un arreglo que tenga multiples tipos de datos
+let variado: [Any] = ["nombre", 1.4, 1, true]
